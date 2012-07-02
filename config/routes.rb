@@ -1,4 +1,6 @@
 Order::Application.routes.draw do
+  resources :customers1s
+
   get "home/index"
 
   # The priority is based upon order of creation:
